@@ -13,7 +13,7 @@ function frameIt(){
 function pressIt(){
   $('#typing').on('keydown', function(key){
     console.log(key.which)
-    if(key.which == 83){
+    if(key.which == 71){
       alert('s was pressed');
     }
   });
