@@ -18,7 +18,12 @@ function pressIt(){
   });
 }
 
+function submitIt(){
+  
+}
+
 $(document).ready(function(){
+  submitIt();
   pressIt();
   frameIt();
   getIt();
