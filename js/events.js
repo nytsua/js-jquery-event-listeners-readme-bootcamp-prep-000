@@ -10,6 +10,12 @@ function frameIt(){
   });
 }
 
+function pressIt(){
+  $('#typing').on('keydown', function(){
+    $('img').addClass('tasty');
+  });
+}
+
 $(document).ready(function(){
   frameIt();
   getIt();
