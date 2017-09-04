@@ -11,5 +11,6 @@ function frameIt(){
 }
 
 $(document).ready(function(){
+  frameIt();
   getIt();
 });
