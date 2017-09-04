@@ -20,6 +20,7 @@ function pressIt(){
 }
 
 $(document).ready(function(){
+  pressIt();
   frameIt();
   getIt();
 });
