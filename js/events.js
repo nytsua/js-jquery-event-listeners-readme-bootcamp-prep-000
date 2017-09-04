@@ -12,7 +12,7 @@ function frameIt(){
 
 function pressIt(){
   $('#typing').on('keydown', function(key){
-    console.log()
+    console.log(key)
     if(key.which == 83){
       alert('s was pressed');
     }
