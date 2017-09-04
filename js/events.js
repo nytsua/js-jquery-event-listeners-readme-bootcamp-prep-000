@@ -11,8 +11,11 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('#typing').on('keydown', function(){
-    $('img').addClass('tasty');
+  $('#typing').on('keydown', function(key){
+    console.log()
+    if(key.which == 83){
+      alert('s was pressed');
+    }
   });
 }
 
