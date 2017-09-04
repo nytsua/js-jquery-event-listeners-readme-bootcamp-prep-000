@@ -4,6 +4,12 @@ function getIt(){
   });
 }
 
+function frameIt(){
+  $('img').on('load', function(){
+    this.addClass('tasty');
+  });
+}
+
 $(document).ready(function(){
   getIt();
 });
